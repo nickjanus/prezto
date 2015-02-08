@@ -11,6 +11,9 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+# Some aliases for linux
+alias mvim="gvim"
+alias open="xdg-open"
 
 # Just vim things
 bindkey -v
