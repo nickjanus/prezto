@@ -15,6 +15,10 @@ fi
 alias mvim="gvim"
 alias open="xdg-open"
 
+#virtualenvwrapper
+export WORKON_HOME=~/.virtualenvs
+source /usr/bin/virtualenvwrapper.sh
+
 # Just vim things
 bindkey -v
 
